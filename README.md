@@ -1,2 +1,2 @@
 # ReynirPall.github.io
-[verkefni 1](index.html)
+[verkefni 1](test.html)
