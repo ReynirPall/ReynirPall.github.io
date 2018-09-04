@@ -1,0 +1,41 @@
+body {
+    font-family:'lucida sans';
+    border: 1px solid blue;
+    max-width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    color: black;
+    background-color:white;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: brown;
+}
+.lennon{
+    color: #0000ff;
+    font-style: italic;
+}
+.lennon strong {
+    color: red;
+}
+ul li {
+    color: green;
+}
+em {
+    color: blue;
+}
+p strong {
+    color: red;
+}
+a:link { 
+    color: green;
+}
+a:visited {
+    color: #0000ff;
+}
+.elvis strong {
+    color: blue;
+}
