@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    line-height: 1. 5;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-areas:   
+        "topnav"
+        "header"
+        "main"
+        "footer"
+}
+header {
+    grid-area: midja;
+}
+
+.topnav {
+    grid-area: topnav;
+    background-color: #0000cd;
+    color: white;
+}
+
+.topnav li a{
+    background-color: #0000cd;
+    color: black;
+}
+
+.midja {
+    grid-area: midja;
+    background-color: #fffff0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.vinstri {
+    grid-area: vinstri;
+    background-color: #fffff0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.haegri {
+    grid-area: haegri;
+    background-color: #fffff0;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+.midja {
+    grid-area: midja;
+}
+
+.vinstri {
+    grid-area: vinstri;
+}
+
+.haegri {
+    grid-area: haegri;
+}
+
+.content {
+    display: grid;
+    grid-gap:0;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "vinstri midja haegri";
+}
+
+p, h4 {
+    padding: 0.5em 1em;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #0000cd;
+    padding: 0,5em;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topmenu a {
+    color: black;
+}
+
+.topmenu a:hover, .topmenu a:active {
+    background-color: yellow;
+    color: brown;
+}

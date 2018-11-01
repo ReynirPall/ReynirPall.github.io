@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+.content {
+    display: grid;
+    grid-gap:0;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "vinstri midja haegri";
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    line-height: 1. 5;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-areas:
+        "header"    
+        "topnav"
+        "main"
+        "footer"
+}
+header {
+    grid-area: midja;
+}
+
+.topnav {
+    grid-area: topnav;
+    background-color: #A0522D;
+    color: black;
+   
+}
+
+.vinstri {
+    grid-area: vinstri;
+    color: black;
+    background-color: #F5DEB3;
+}
+
+.midja {
+    grid-area: midja;
+    background-color: #DEB887;
+    color: black;
+    font-family: "Arial"
+}
+
+
+.haegri {
+    grid-area: haegri;
+    background-color: #F5DEB3;
+    color: black;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.midja {
+    grid-area: midja;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vinstri {
+    grid-area: vinstri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.haegri {
+    grid-area: haegri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+p, h4 {
+    padding: 0.5em 1em;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+h1 {
+    text-align: center;
+    background-color: #DEB887;
+    padding: 0,5em;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topmenu a {
+    color: black;
+}
+
+.topmenu a:hover, .topmenu a:active {
+    background-color: yellow;
+    color: brown;
+}
