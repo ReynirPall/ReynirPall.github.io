@@ -4,3 +4,4 @@
 * [verkefni 3.1](verkefni 3/verkefni 3.1/)
 * [verkefni 3.2](verkefni 3/verkefni 3.2/)
 * [verkefni 3.3](verkefni 3/verkefni 3.3/Forsíða)
+* [verkefni 4](verkefni 4 2/)
