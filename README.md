@@ -1,4 +1,4 @@
 # ReynirPall.github.io
-[verkefni 1](index.html)
-[verkefni 2](index.html)
+[verkefni 1](verkefni 1/)
+[verkefni 2](verkefni 2/)
 [verkefni 3](verkefni 3/)
