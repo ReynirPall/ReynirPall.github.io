@@ -6,4 +6,4 @@
 * [verkefni 3.3](verkefni 3/verkefni 3.3/Forsíða)
 * [verkefni 4](Verkefni4/)
 * [verkefni 5](verkefni5/)
-* [verkefni 6](verkefni6/)
+* [verkefni 6](verkefni6/index.html)
