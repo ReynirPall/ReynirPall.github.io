@@ -22,6 +22,29 @@ const db = firebase.firestore();
 const toolList = document.querySelector('#toolList')
 const form = document.querySelector('#add-tool-list')
 
+// create element and render tools
+function renderTools(doc){
+    let li = document.createElement('li');
+    let toolID = document.createElement('span');
+    let toolName = document.createElement('span');
+
+    li.setAttribute('data-id', doc.id);
+    toolID.textContent = doc.data().toolID;
+    toolName.textContent = doc.data().toolName;
+
+    li.appendChild(toolID);
+    li.appendChild(toolName);
+    toolList.appendChild(li);
+}
+
+//getting the data from firebase
+db.collection('Tools').get().then((snapshot) => {
+    snapshot.docs.forEach(doc =>{
+        console.log(doc.data());
+        renderTools(doc);
+    })
+})
+
 // uploading the data to firebase
 form.addEventListener('submit', (e) => {
     e.preventDefault()
