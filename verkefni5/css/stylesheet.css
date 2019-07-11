@@ -1,14 +1,19 @@
 * {box-sizing: border-box}
 body {
-    background-color: #0064ce;
-    background: linear-gradient(to bottom, #0064ce 87%, #001933);
+    background-color: white;
+    background:  whitesmoke;
     color: #444444;
-    font: 400 1em/1.5 "Open Sans", "sans serif"; /* Samsett skipun, þyngd/hæð, size, family */
+    font: 400 0,5em/1 "Open Sans", "sans serif"; /* Samsett skipun, þyngd/hæð, size, family */
 }
 .container {
-    max-width: 60em; /* fartölvustærð */
+    max-width: 80em; /* fartölvustærð */
     margin: 0 auto; /* top/bottom og left/rigth*/
     padding: 0;
+    color: black;
+}
+.headerdiv {
+    max-height: 9em;
+    max-width: 50em;
 }
 .col-2 {
     display: grid;
@@ -19,17 +24,18 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .beige {
-    background-image: linear-gradient(to bottom, #f7d37e, #f6f1d3);
+    text-align: center;
+    background-image: linear-gradient(to bottom,white , white);
     padding: 1em;
     display: grid;
 }
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 20vh;
+    height: 15vh;
 }
 header h1 {
-    color: white;
+    color: black;
     font-weight: 200;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -37,16 +43,25 @@ header h1 {
 }
 .topnav {
     margin-top: 0;
+    color: black;
+    font-family: sans-serif;
+    padding-left: 12em;
 }
+a:hover {
+    background-color: gray;
+    background-color: gray;
+    border: 1px solid lightgray;
+  }
 header a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     padding: 0 1em;
     margin-top: 5em;
 }
 .verkefni {
     text-align: right;
-    color: #f7d37e;
+    color: black;
+    font-style: oblique;
 }
 .copy {
     color: #fff;
@@ -70,4 +85,17 @@ footer {
     list-style-type: none;
     padding-bottom: 0.2;
 }
-
+.myndTar {
+    margin-top: -20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+.title {
+   margin-left: 15em;
+}
+.textisida {
+    padding-left: 10em;
+    padding-right: 10em;
+    font-family: 'sans serif';
+}
