@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  .header{
+    height: 150px;
+    background: whitesmoke;
+    padding: 0 20px;
+    color: #fff;
+  }
+  .logo{
+    line-height: 150px;
+    float: left;
+    text-transform: uppercase;
+  }
+  
+  .menu{
+    float: right;
+    line-height: 160px;
+    font-size: 20px
+  }
+  .menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 150px;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+  
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  
+
+  
+  @media screen and (max-width:800px) {
+    .show-menu-btn,.hide-menu-btn{
+      display: block;
+    }
+    .menu{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #333;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 80px 0;
+      line-height: normal;
+      transition: 0.7s;
+    }
+    .menu a{
+      display: block;
+      padding: 20px;
+    }
+    .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    #chk:checked ~ .menu{
+      right: 0;
+    }
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+  
+  /* Global */
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .fyrirspurnh1 {
+    font-size: 32px;
+  
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+  .button_1{
+    height:38px;
+    background: rgb(0, 100, 200);
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+  
+  .dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  
+  /* Showcase */
+  #showcase{
+    min-height:400px;
+    background:url('showcase.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+  }
+  
+  #showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+  
+  #showcase p{
+    font-size:20px;
+  }
+  
+  /* Newsletter */
+  #newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:lightgray;
+  }
+  
+  #newsletter h1{
+    float:left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  
+  #newsletter form {
+    float:right;
+    margin-top:15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+  }
+  
+  /* Boxes */
+  #boxes{
+    margin-top:20px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+  
+  #boxes .box img{
+    width:90px;
+  }
+  
+  /* Sidebar */
+  aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+  }
+  
+  /* Main-col */
+  article#main-col{
+    float:left;
+    width:65%;
+  }
+  
+  /* Services */
+  ul#services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+  }
+  
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:lightgray;
+    text-align: center;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+    #showcase h1{
+      margin-top:40px;
+    }
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+
+  .containerDiv {
+    position: relative;
+    width: 1200px;
+    height: 450px;
+    margin: 20px auto;
+    background: whitesmoke;
+    
+
+}
+.containerDiv .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(450px - 30px);
+    background: #fff;
+    float: left;
+    margin:  15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}   
+.containerDiv .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background: darkgray;
+    transition: 0.5s;
+    z-index: 1;
+}
+.containerDiv .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+}
+.containerDiv .box .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    transition: 0.5s;
+    color: #fff;
+
+}
+.containerDiv .box:hover .icon .fa {
+    font-size:40px;
+}
+.containerDiv .box .content {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.containerDiv .box:hover .content {
+    top: 100px;
+    opacity: 1;
+}
+.containerDiv .box .content h3 {
+    margin: 0 0 10;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+}
+.containerDiv .box .content p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
