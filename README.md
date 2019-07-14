@@ -8,3 +8,4 @@
 * [verkefni 5](verkefni5/)
 * [verkefni 6](verkefni6/Index.html)
 * [Verkefni-TAR](Verkefni-TAR/index.html)
+* [verkefni-TAR](verkefni-TAR/index.html)
