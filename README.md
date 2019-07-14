@@ -7,4 +7,4 @@
 * [verkefni 4](Verkefni4/)
 * [verkefni 5](verkefni5/)
 * [verkefni 6](verkefni6/Index.html)
-* [Verkefni-TAR](Verkefni-TAR/Index.html)
+* [Verkefni-TAR](Verkefni-TAR/index.html)
