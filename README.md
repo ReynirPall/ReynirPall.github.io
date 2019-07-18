@@ -9,3 +9,4 @@
 * [verkefni 6](verkefni6/Index.html)
 * [Verkefni-TAR](Verkefni-TAR/index.html)
 * [verkefni-TAR](verkefni-TAR/index.html)
+* [new-tar](new-tar/index.html)
