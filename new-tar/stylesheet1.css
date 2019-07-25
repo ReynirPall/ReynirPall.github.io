@@ -171,9 +171,9 @@
   /*CONTENT SLIDER */
   .carousel {
     float: right;
-    border: 2px solid #3fa5d5;
-    height: 300px;
-    width: 30%;
+    border: 1px solid darkgray;
+    height: 270px;
+    width: 27%;
     overflow: hidden;
     position: relative;
     border-radius: 5px;
@@ -194,7 +194,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
   }
   .left, .right {
     position: absolute;
@@ -247,6 +247,7 @@
   /* Newsletter */
   #newsletter{
     padding:15px;
+    padding-top: 0px;
     color:#ffffff;
     background-image: linear-gradient(to left, lightgray, gray);
   }
@@ -314,12 +315,11 @@
   
   footer{
     padding:20px;
-    margin-top:20px;
     color:#ffffff;
     background-color:lightgray;
     text-align: center;
   }
-  @media(max-width: 1200px){ 
+  @media(max-width: 1600px){ 
     .carousel {
         display: none;
     }
@@ -474,14 +474,21 @@
 }
 .map-responsive{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:50%;
     position: relative;
     height:0;
   }
   .map-responsive iframe{
-    left:3%;
+    padding-top: 1%;
+    left:13%;
     top:0;
-    height:100%;
-    width:90%;
+    height:70%;
+    width:70%;
     position:absolute;
+  }
+  .mapText{
+      text-align: center;
+      color: black;
+      padding-top: 2%;
+     
   }

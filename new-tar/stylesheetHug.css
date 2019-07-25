@@ -72,7 +72,8 @@
     .mobilemynd {
         display: contents;
     }
-  }
+    }
+  
   
   @media screen and (max-width:800px) {
     .show-menu-btn,.hide-menu-btn{
@@ -165,22 +166,25 @@
     margin-bottom:10px;
   }
   
+  @media screen and (max-width:800px) {
+    .container {
+        padding-top: 3%;
+    } 
+    }
   
   /*slideshow*/
   
   
   
- 
-  
   #slider {
-    overflow: hidden 
+    overflow: hidden;
   }
   #slider figure {
-      position: absolute;
+    position: absolute;
     width: 500%;
     margin: 0;
-      left: 0;
-      animation: 18s slider infinite;
+    left: 0;
+    animation: 18s slider infinite;
   }
   #slider figure img {
       width: 20%;
