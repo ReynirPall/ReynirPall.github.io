@@ -132,7 +132,7 @@
     width: 100%;
     text-align: center;
     margin: auto;
-    padding-top: 33%;
+    padding-top: 32%;
     overflow: hidden;
   }
   .container p {
@@ -149,14 +149,6 @@
     padding:0;
   }
   
-  .button_1{
-    height:38px;
-    background: rgb(0, 100, 200);
-    border:0;
-    padding-left: 20px;
-    padding-right:20px;
-    color:#ffffff;
-  }
   
   .dark{
     padding:15px;
@@ -251,11 +243,13 @@
     margin-top: 20px;
 }
   #Products .vara{
+    background-color: whitesmoke;
     float: left;
     text-align: center;
     width: 30%;
     padding-left: 2%;
     padding-right: 1%;
+    padding-bottom: 2%;
   
 }
   .vorurDiv {
@@ -433,4 +427,12 @@
     color: black;
   }
 
-  
+    
+  .button_1{
+    height:38px;
+    background: #3fa5d5;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
