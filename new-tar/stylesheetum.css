@@ -104,6 +104,7 @@ text-transform: uppercase;
     float: right;
     line-height: 160px;
     font-size: 20px;
+    z-index: 2;
    }
   .menu a{
     color: black;
