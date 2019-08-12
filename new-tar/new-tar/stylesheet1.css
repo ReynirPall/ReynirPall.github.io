@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  .header{
+    height: 100px;
+    background: lightgray;
+    padding: 0 20px;
+    color: #fff;
+  }
+  .logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+  }
+  
+  .menu{
+    float: right;
+    line-height: 100px;
+    font-size: 20px;
+    z-index: 2;
+  }
+  .menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+  
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  
+
+  
+  @media screen and (max-width:800px) {
+    .show-menu-btn,.hide-menu-btn{
+      display: block;
+      color: black;
+    }
+    .menu{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #333;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 80px 0;
+      line-height: normal;
+      transition: 0.7s;
+    }
+    .menu a{
+      display: block;
+      padding: 20px;
+    }
+    .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    #chk:checked ~ .menu{
+      right: 0;
+    }
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    margin:0;
+    background-color:whitesmoke;
+  }
+  
+  /* Global */
+  .container{
+    text-align: center;
+    width: 90%;
+    padding-top: 2%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .container h1 {
+    float: left;
+    }
+
+
+ 
+  .fyrirspurnh1 {
+    font-size: 32px;
+  
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+  .button_1{
+    height:38px;
+    background: #3fa5d5;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+  
+  .dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  
+  /* Showcase */
+  #showcase{
+    min-height:400px;
+    background:url('showcase.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+  }
+  
+  #showcase h1{
+    margin-top:60px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+  
+  #showcase p{
+    font-size:20px;
+  }
+  #showcase .carousel {
+    margin-top: 1%;
+  }
+  
+  /*CONTENT SLIDER */
+  .carousel {
+    float: right;
+    border: 1px solid darkgray;
+    height: 270px;
+    width: 27%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: lightgray;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .slider {
+
+    display: flex;
+    height: 100%;
+    width: 400%;
+  }
+  .slider section {
+    background-color: lightgray;
+    color: black;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+  }
+  .left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .arrow i {
+    font-size: 20px;
+    -webkit-user-select: none;
+    color: black;
+  }
+  .left {
+    left: 3%;
+    color: black;
+  }
+
+  .right {
+    right: 3%;
+    color: black;
+
+    
+    
+  }
+  .control ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+  }
+  .control ul li {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .control ul li.selected {
+    background: transparent;
+  }
+
+  
+
+  /* Newsletter */
+  #newsletter{
+    padding:15px;
+    padding-top: 0px;
+    color:#ffffff;
+    background-image: linear-gradient(to left, lightgray, gray);
+  }
+  
+  #newsletter h1{
+    float:left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  
+  #newsletter form {
+    float:right;
+    margin-top:15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+  }
+  .textivorur {
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: sans-serif;
+
+  }
+  /* Boxes */
+  #boxes{
+    margin-top:20px;
+    color: lightgray;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+  
+  #boxes .box img{
+    width:90px;
+  }
+  
+  /* Sidebar */
+  aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+  }
+  
+  /* Main-col */
+  article#main-col{
+    float:left;
+    width:65%;
+  }
+  
+  /* Services */
+  ul#services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+  }
+  
+  footer{
+    padding:20px;
+    color:#ffffff;
+    background-color:lightgray;
+    text-align: center;
+  }
+  @media(max-width: 1600px){ 
+    .carousel {
+        display: none;
+    }
+    .container h1 {
+        float: none;
+    }
+}
+  
+  /* Media Queries */
+  @media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+
+    header{
+      padding-bottom:0px;
+    }
+  
+    #showcase h1{
+      margin-top:40px;
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+  .kassar {
+    color: lightgray;
+  }
+    @media screen and (max-width:800px) {
+    .content p {
+        display: none;
+    }
+    }
+  
+ 
+ 
+  #boxes{
+    margin-top:20px;
+    margin-left: 3%;
+    color: lightgray;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:5px;
+    }
+
+
+  .containerDiv {
+    position: relative;
+    width: auto;
+    height: 450px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    background: whitesmoke;
+    display: block;
+    
+
+}
+.containerDiv .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(450px - 30px);
+    background: #fff;
+    float: left;
+    margin:  10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}   
+.containerDiv .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background: darkgray;
+    transition: 0.5s;
+    z-index: 1;
+}
+.containerDiv .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+}
+.containerDiv .box .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    transition: 0.5s;
+    color: #fff;
+
+}
+.containerDiv .box:hover .icon .fa {
+    font-size:40px;
+}
+.containerDiv .box .content {
+    position: relative;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 10%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.containerDiv .box:hover .content {
+    top: 100px;
+    opacity: 1;
+}
+.containerDiv .box .content h3 {
+    margin: 0 0 10;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+}
+.containerDiv .box .content p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding-bottom: 2%;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position: relative;
+    height:0;
+  }
+  .map-responsive iframe{
+    padding-top: 1%;
+    left:19%;
+    top:0;
+    height:50%;
+    width:60%;
+    position:absolute;
+  }
+  .mapText{
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      padding-top: 2%;
+     
+  }
