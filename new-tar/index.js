@@ -30,3 +30,9 @@ right.addEventListener('click', function() {
   indicatorParent.children[index].classList.add('selected');
   slider.style.transform = 'translateX(' + (index) * -25 + '%)';
 });
+document.getElementById("mobileText").style.fontSize = '12px';
+document.getElementById("mobileText1").style.fontSize = '12px';
+document.getElementById("mobileText2").style.fontSize = '12px';
+document.getElementById("head1").style.fontSize = '14px';
+document.getElementById("head2").style.fontSize = '14px';
+document.getElementById("head3").style.fontSize = '14px';
