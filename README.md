@@ -10,4 +10,4 @@
 * [Verkefni-TAR](Verkefni-TAR/index.html)
 * [verkefni-TAR](verkefni-TAR/index.html)
 * [new-tar](new-tar/index.html)
-* [Hulda](Hulda/tar.is/website/index.html)
+* [Hulda](Hulda/tar.is/website/)
