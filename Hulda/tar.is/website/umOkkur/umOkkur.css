@@ -1,0 +1,96 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: 'sans serif';
+    font-style: normal;
+    background: linear-gradient(to bottom, #CFD6E6 , #FFF);
+}
+
+    body{
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
+    }
+        
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 70vh;
+            color: white;
+        }
+        .aboutPerson{
+            align-items: center;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+            .hulda {
+                border-radius: 50%;
+                width: 180px;
+            }
+            .personInfo{
+                text-align: center;
+                color: black;
+            }
+            .personInfo h3{
+                text-align: center;
+                align-items: center;
+                color: black;
+                margin: 0 20px 0 20px;
+              
+            }
+        
+
+        .footer{
+        }
+
+/* ----------MOBILE / TABLET---------- */
+@media only screen and (min-width: 768px){
+    .main{
+
+    }
+}
+
+/* ----------LARGER TABLET / DESKTOP---------- */
+@media only screen and (min-width: 1024px){
+    body{
+        width: 80vw;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 70vh;
+        color: white;
+    }
+    .aboutPerson{
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+        .hulda {
+            border-radius: 50%;
+            width: 180px;
+        }
+        .personInfo{
+            text-align: center;
+            color: black;
+        }
+        .personInfo h3{
+            text-align: center;
+            align-items: center;
+            color: black;
+            margin: 0 120px 0 120px;
+          
+        }
+    
+
+    .footer{
+    }
+}

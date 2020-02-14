@@ -1,0 +1,373 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: 'sans-serif';
+    font-style: normal;
+    background: linear-gradient(to bottom, #CFD6E6 , #FFF);
+}
+
+    body{
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
+    }
+        
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: black;
+        }
+            .simaMynd{
+                width: 320px;
+                border-radius: 25px;
+                margin: 50px 0;
+                
+            }
+
+            .section1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                
+                width: 90%;
+                height: auto;
+                text-align: center;
+                margin: 0 0 -10px 0;
+            }
+
+                .section1 h1{
+                    font-size: 60px;
+                    width: 100%;
+                    font-weight: normal;
+                    margin: 5% 0 0 0 ;
+                    text-shadow: 2px 2px gray;
+                }
+
+                   
+            
+            .section2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                
+                height: auto;
+                text-align: center;
+            }
+
+                .s2Info{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 90%;
+                }
+
+                    .s2Info h2{
+                        font-size: 25px;
+                        width: 80%;
+                        font-weight: normal;
+                        margin: 5% 0 0 0 ;
+                        text-shadow: 1px 1px black;
+                    }
+                
+                .s2Mobile{
+                    width: 200px;
+                    border-radius: 25px;
+                    margin: 50px 0;
+                    display: none;
+                }    
+
+                .s2Button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 50px;
+
+                   
+                    color: black;
+                    border-radius: 15px;
+                    margin: 30px 0 30px 0;
+                    background: linear-gradient(to bottom, #CFD6E9  50%, black 50%);
+                    background-size: 100% 200%;
+                    background-position: top;
+                    transition:all 0.2s ease;
+                }
+
+                    .s2Button:hover{
+                        cursor: pointer;
+                        color: white;
+                        background-position:bottom;
+                    }
+                    
+
+            .section3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                height: auto;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+                .s3Info{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                    .s3Info h2{
+                        font-size: 25px;
+                        width: 80%;
+                        font-weight: normal;
+                        margin: 5% 0 0 0;
+                        text-shadow: 1px 1px black;
+                    }
+
+                .s3Mobile{
+                    display: none;
+                    width: 200px;
+                    border-radius: 25px;
+                    margin: 50px 0 0 0;
+                }
+
+                .s3Button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 50px;
+
+                    background: white;
+                    color: #3FA5D5;
+                    border-radius: 15px;
+                    margin: 15% 0 0 0 ;
+                }
+
+        .footer{
+            
+        }
+
+/* ----------MOBILE / TABLET---------- */
+@media only screen and (min-width: 768px){
+    .main{
+
+    }
+}
+
+/* ----------LARGER TABLET / DESKTOP---------- */
+@media only screen and (min-width: 1024px){
+    body{
+        width: 100vw;
+    }
+
+        .main{
+        }
+        .simaMynd{
+            display: none;
+        }
+        .s2Mobile{
+            width: 200px;
+            border-radius: 25px;
+            margin: 50px 0;
+            display: flex;
+        }    
+
+            .section1{
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+                .section1:hover .s1Mobile{
+                    transform: scale(1.05);
+                    transition:all 0.3s ease-out;
+                }
+
+                .section1:hover .s1Info{
+                    transform: scale(1.05);
+                    transition:all 0.6s ease-out;
+                }
+
+                .s1Info{
+                    position: relative;
+                    align-items: flex-start;
+                    left: 0; 
+                    width: 90%;
+                    text-align: start;
+                    align-items: center;
+                    transition:all 1s ease-out;
+                }
+
+                    .s1Info h1{
+                        font-size: 60px;
+                        text-shadow: 1px 1px black;
+                    }
+
+                    .s1Info h5{
+                        font-size: 20px;
+                    }
+
+                .imgWrap{
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 30%;
+                    padding: 50px 0 0 0;
+
+                }
+
+                    .s1Mobile{
+                        position: relative;
+                        right: 0;
+                        width: 700px;
+                        z-index: -1;
+                        transition:all 0.6s ease-out;
+                    }
+            
+            .section2{
+                flex-direction: row;
+                width: 100%; 
+                margin-top: 50px;
+            }
+
+                .section2:hover .s2Mobile{
+                    transform: scale(1.05);
+                    transition:all 0.3s ease-out;
+                }
+
+                .section2:hover .s2Info{
+                    transform: scale(1.05);
+                    transition:all 0.6s ease-out;
+                }
+
+                .s2Info{
+                    align-items: center;
+                    height: 100%;
+                    width: 40%;
+                    transition:all 1s ease-out;
+                    margin-top: -10%;
+                }
+
+                    .s2Info h2{
+                        justify-self: flex-start;
+                        font-size: 40px;
+                        text-shadow: 1px 1px black;
+                    }
+
+                    .s2Info h3{
+                        font-size: 20px;
+                    }
+                
+                .s2Mobile{
+                    transition:all 0.6s ease-out;
+                    margin-left: 200px;
+                    width: 700px;
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+                }    
+
+                .s2Button{
+                    margin: 20px 0% 0 0;
+                }
+
+            .section3{
+                flex-direction: row;
+                width: 100%; 
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+                .section3:hover .s3Mobile{
+                    transform: scale(1.05);
+                    transition:all 0.3s ease-out;
+                }
+
+                .section3:hover .s3Info{
+                    transform: scale(1.05);
+                    transition:all 0.6s ease-out;
+                }
+
+                .s3Info{
+                    order: 1;
+                    align-items: center;
+                    transition:all 1s ease-out;
+                    margin-left: 200px;
+                }
+
+                .s3Info h2{
+                    justify-self: flex-start;
+                    font-size: 40px;
+                    text-shadow: 1px 1px black;
+                }
+
+                    .s3Info h3{
+                        font-size: 20px;
+                    }
+
+                .s3Mobile{
+                    order: 0;
+                    display: block;
+                    width: 500px;
+                    margin: 0;
+                    transition:all 0.6s ease-out;
+                }
+
+                
+                .section4{
+                    flex-direction: row;
+                    width: 100%; 
+                }
+    
+                    .section4:hover .s4Mobile{
+                        transform: scale(1.05);
+                        transition:all 0.3s ease-out;
+                    }
+    
+                    .section4:hover .s4Info{
+                        transform: scale(1.05);
+                        transition:all 0.6s ease-out;
+                    }
+    
+                    .s4Info{
+                        align-items: center;
+                        height: 100%;
+                        width: 40%;
+                        transition:all 1s ease-out;
+                        margin-top: -10%;
+                    }
+    
+                        .s4Info h2{
+                            justify-self: flex-start;
+                            font-size: 40px;
+                            text-shadow: 1px 1px black;
+                        }
+    
+                        .s4Info h3{
+                            font-size: 20px;
+                        }
+                    
+                    .s4Mobile{
+                        transition:all 0.6s ease-out;
+                        margin-left: 100px;
+                        width: 600px;
+                        margin-bottom: 50px;
+                        margin-top: 20px;
+                    }    
+    
+                    
+               
+}
+
+/* ----------24"+ Desktop---------- */
+@media only screen and (min-width: 1700px){
+}
