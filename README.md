@@ -1,14 +1,3 @@
 # ReynirPall.github.io
-* [verkefni 1](verkefni 1/)
-* [verkefni 2](verkefni 2/)
-* [verkefni 3.1](verkefni 3/verkefni 3.1/)
-* [verkefni 3.2](verkefni 3/verkefni 3.2/)
-* [verkefni 3.3](verkefni 3/verkefni 3.3/Forsíða)
-* [verkefni 4](Verkefni4/)
-* [verkefni 5](verkefni5/)
-* [verkefni 6](verkefni6/Index.html)
-* [Verkefni-TAR](Verkefni-TAR/index.html)
-* [verkefni-TAR](verkefni-TAR/index.html)
-* [new-tar](new-tar/index.html)
-* [Hulda](Hulda/tar.is/website/)
+
 * [elmax.is](elmaxmain.is/index.html)
