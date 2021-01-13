@@ -1,3 +1,3 @@
 # ReynirPall.github.io
-*[tar.is] (tar.is - reynir/index.html)
+*[tar.is] (v3/index.html)
 
