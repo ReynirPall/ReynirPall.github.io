@@ -17,7 +17,7 @@ NOTE: This file contains the styling for responsive Template.
  
  @media(max-width:1599px) {
 	.home-screen-slide:before { background: url('../pictures/appOnDevice/iphonex.png') no-repeat 0 0; background-size: 130% 90%; content: ""; position: absolute; left: -5%; top: 5%; height: 100%; width: 301px; z-index: 10;}
-
+	
  }
 
 
@@ -209,3 +209,4 @@ NOTE: This file contains the styling for responsive Template.
 	.home-screen-slide:before { background: url('../pictures/appOnDevice/iphonex.png') no-repeat 0 0; background-size: 130% 90%; content: ""; position: absolute; left: -10%; top: 5%; height: 100%; width: 301px; z-index: 10;}
 
 }
+#contact-us {display: none;}
