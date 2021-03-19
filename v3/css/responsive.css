@@ -15,6 +15,7 @@ NOTE: This file contains the styling for responsive Template.
 ================================================
  *******************/
  
+
  @media(max-width:1599px) {
 	.home-screen-slide:before { background: url('../pictures/appOnDevice/iphonex.png') no-repeat 0 0; background-size: 130% 90%; content: ""; position: absolute; left: -5%; top: 5%; height: 100%; width: 301px; z-index: 10;}
 	
@@ -30,7 +31,7 @@ NOTE: This file contains the styling for responsive Template.
 	.home-screen-slide { padding: 69px 0px 72px 35px; }
 	.iq-Work-box .line:before { left: 125%; width: 45vh; }
 	.home-screen-slide:before { background: url('../pictures/appOnDevice/iphonex.png') no-repeat 0 0; background-size: 130% 90%; content: ""; position: absolute; left: -6%; top: 5%; height: 100%; width: 301px; z-index: 10;}
-
+	#screenshots {display: none;}
 }
 @media(max-width:1199px) {
 	.banner-text h1 { font-size: 86px; line-height: 96px; letter-spacing: 0; }
@@ -53,7 +54,7 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-fancy-box-02.iq-mt-40 { margin-top: 0px !important; }
 	.iq-fancy-box-03 { padding: 15px; }
 	.iq-fancy-box-03 h4 { font-size: 20px; }
-
+	#screenshots {display: none;}
 }
 @media(max-width:1099px) {
 	.iq-fancy-box { padding: 30px; }
@@ -209,4 +210,4 @@ NOTE: This file contains the styling for responsive Template.
 	.home-screen-slide:before { background: url('../pictures/appOnDevice/iphonex.png') no-repeat 0 0; background-size: 130% 90%; content: ""; position: absolute; left: -10%; top: 5%; height: 100%; width: 301px; z-index: 10;}
 
 }
-#contact-us {display: none;}
+

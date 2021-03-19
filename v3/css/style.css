@@ -58,7 +58,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
                                General
 -----------------------------------------------------------------------*/
 
-body { font-family: 'Open sans', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #666666; overflow-x: hidden; }
+body { font-family: 'Open sans', sans-serif; font-weight: normal; font-style: normal; font-size: 15px; line-height: 24px; color: #666666; overflow-x: hidden; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #333333; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #1e50e2; text-decoration: none !important; }
@@ -541,6 +541,26 @@ header.affix .navbar-nav { margin-top: 6px; }
 .iq-amazing-tab .nav-tabs li a:hover i { background: none; color: #fff; -webkit-background-clip: text; -webkit-text-fill-color: snow; }
 .iq-amazing-tab .tab-content {  padding: 17px 16px 79px 44px; background-size: 100% 100%; }
 .iq-amazing-tab .tab-content .tab-pane img { width: 100%; padding-top: 35px;}
+
+#tools::before #design{
+    display: none !important;
+}
+
+#projectMovements{
+    
+}
+#toolHistory{
+    
+}
+#cars{
+    
+}
+#staff{
+    
+}
+#projects{
+    
+}
 
 /* fancy box 01 */
 .iq-fancy-box-01 { padding: 10px 30px; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }

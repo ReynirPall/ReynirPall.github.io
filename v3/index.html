@@ -162,7 +162,7 @@
                        
                         <h4 class="iq-tw-6">Yfirsýn</span></h4>
                         <div class="info-03">
-                            <p>Hugbúnaðurinn veitir þér betri yfirsýn yfir eignir fyrirtækis þíns, auðvelt er að sjá hvar allar eignir fyrirtækissins eru staðsettar.</p>
+                            <p>Hugbúnaðurinn veitir þér betri yfirsýn yfir eignir fyrirtækis þíns, auðvelt er að sjá hvar öll verkfæri og tæki eru staðsett.</p>
                         </div>
                     </div>
                 </div>
@@ -252,7 +252,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active wow fadeInLeft" data-wow-duration="1s">
+                        <li id="tools" role="presentation" class="active wow fadeInLeft" data-wow-duration="1s">
                             <a class="round-right" href="#design" aria-controls="design" role="tab" data-toggle="tab">
                                 <div class="iq-fancy-box-01 text-right">
                                     <i aria-hidden="true" class="ion-ios-checkmark-outline"></i>
@@ -263,9 +263,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li role="presentation" class="wow fadeInLeft" data-wow-duration="1s" >
+                        <li id="projectMovements" role="presentation" class="wow fadeInLeft" data-wow-duration="1s" >
                             <a class="round-right" href="#resolution" aria-controls="resolution" role="tab" data-toggle="tab">
-                                <div class="iq-fancy-box-01 text-right">
+                                <div id="projectMovements" class="iq-fancy-box-01 text-right">
                                     <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
                                     <h4 class="iq-tw-6">Yfirsýn</h4>
                                     <div class="fancy-content-01">
@@ -274,9 +274,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li role="presentation" class="wow fadeInLeft" data-wow-duration="1s">
+                        <li id="toolHistory" role="presentation" class="wow fadeInLeft" data-wow-duration="1s">
                             <a class="round-right" href="#ready" aria-controls="ready" role="tab" data-toggle="tab">
-                                <div class="iq-fancy-box-01 text-right">
+                                <div id="toolHistory" class="iq-fancy-box-01 text-right">
                                     <i aria-hidden="true" class="ion-ios-copy-outline"></i>
                                     <h4 class="iq-tw-6">Týnt verkfæri?</h4>
                                     <div class="fancy-content-01">
@@ -300,9 +300,9 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="wow fadeInRight" data-wow-duration="1s">
+                        <li id="cars" role="presentation" class="wow fadeInRight" data-wow-duration="1s">
                             <a href="#fertures" aria-controls="fertures" role="tab" data-toggle="tab">
-                                <div class="iq-fancy-box-01">
+                                <div id="cars" class="iq-fancy-box-01">
                                     <i aria-hidden="true" class="ion-ios-compose-outline"></i>
                                     <h4 class="iq-tw-6">Bifreiðir</h4>
                                     <div class="fancy-content-01">
@@ -311,9 +311,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li role="presentation" class="wow fadeInRight" data-wow-duration="1s">
+                        <li id="staff" role="presentation" class="wow fadeInRight" data-wow-duration="1s">
                             <a href="#face" aria-controls="face" role="tab" data-toggle="tab">
-                                <div class="iq-fancy-box-01">
+                                <div id="staff" class="iq-fancy-box-01">
                                     <i aria-hidden="true" class="ion-ios-person-outline"></i>
                                     <h4 class="iq-tw-6">Starfsmenn</h4>
                                     <div class="fancy-content-01">
@@ -322,9 +322,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li role="presentation" class="wow fadeInRight" data-wow-duration="1s">
+                        <li id="projects" role="presentation" class="wow fadeInRight" data-wow-duration="1s">
                             <a href="#codes" aria-controls="codes" role="tab" data-toggle="tab">
-                                <div class="iq-fancy-box-01">
+                                <div id="projects" class="iq-fancy-box-01">
                                     <i aria-hidden="true" class="ion-ios-plus-outline"></i>
                                     <h4 class="iq-tw-6">Verknúmer</h4>
                                     <div class="fancy-content-01">
@@ -350,9 +350,10 @@
                 <div class="col-md-6 text-left iq-ptb-80 green-bg">
                 <div class="iq-app-info">
                     <h2 class="heading-left iq-font-white white iq-tw-6 ">Virkni Hugbúnaðar</h2>
-                    <div class="lead iq-tw-6 iq-mb-20">Verkfæraskráningin sparar þínu fyrirtæki bæði týndum verkfærum og tímaeyðslu við það að leyta af verkfærum</div>
+                    <div class="lead iq-tw-6 iq-mb-20">Verkfæraskráningin sparar þínu fyrirtæki bæði í týndum verkfærum og tímaeyðslu við það að leyta af verkfærum</div>
                     <h4 class="iq-mt-50 iq-font-white iq-tw-6 iq-mb-15">TAR</h4>
-                    <p class="">Hugbúnaðurinn frá TAR veitir yfirsýn yfir allar eignir fyrirtæki þíns, eykur upplýsingaflæði og heldur nákvæmt eignabókhald frá uppsetningu. Hugbúnaðurinn er þróaður í samstarfi með iðnaðarfyrirtækjum þannig hann er einfaldur og þæginlegur í notkun. </p>
+                    <p class="">Auðvelt er að leyta eftir verkfærum hvort sem þau eru laus á lager eða skráð út á starfsmann eða verknúmer. Yfirmenn geta því auðveldlega séð hvaða verkfæri eru á hvaða verknúmeri eða starfsmanni. Hugbúnaðurinn frá TAR veitir yfirsýn yfir allar eignir fyrirtæki þíns, eykur upplýsingaflæði og heldur nákvæmt eignabókhald frá uppsetningu.
+                    </p>
                 </div>
                 </div>
                 <div class="col-md-6 iq-app-screen iq-ptb-80">
@@ -934,9 +935,9 @@
                     <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="true" data-dots="false" data-items="5" data-items-laptop="4" data-items-tab="3" data-items-mobile="2" data-items-mobile-sm="1" data-margin="15">
                         <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/alefli.png" alt="#"></div>
                         <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/isloft.png" alt="#"></div>
-                        <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/rafholt.png" alt="#"></div>
+                        <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/rafholt.PNG" alt="#"></div>
                         <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/fagraflogo.png" alt="#"></div>
-                        <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/elmax.png" alt="#"></div>
+                        <div class="item"> <img class="img-responsive center-block" src="pictures/appOnDevice/logo/rymd.jpg" alt="#"></div>
                     </div>
                 </div>
             </div>
@@ -1075,6 +1076,8 @@
 
     <!-- Custom -->
     <script src="js/custom.js"></script>
+
+    <script src="js/imgSwitcher.js"></script>
 
 </body>
 
